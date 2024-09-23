@@ -29,3 +29,21 @@ Name:  Kendriya School
 Score: 110
 Overs played: 18
 '''
+
+print("Team 1:")
+team1_name = input("Team Name:\n")
+team1_score = int(input("Score:\n"))
+team1_overs = int(input("Overs played:\n"))
+print("Team 2:")
+team2_name = input("Team name:\n")
+team2_score = int(input("Score:\n"))
+team2_overs = int(input("Overs played:\n"))
+print("Match Details:")
+print("Team 1:")
+print(f"Name: {team1_name}")
+print(f"Score: {team1_score}")
+print(f"Overs played: {team1_overs}")
+print("Team 2:")
+print(f"Name: {team2_name}")
+print(f"Score: {team2_score}")
+print(f"Overs played: {team2_overs}")
